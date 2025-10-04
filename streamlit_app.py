@@ -55,7 +55,7 @@ data_df = {
     "Pclass":pclass,
     "Name" : name,
     "Sex" :sex,
-    "age" :age,
+    "Age" :age,
     "SibSp" :sibsp,
     "Parch" :parch,
     "Fare" :fare,
