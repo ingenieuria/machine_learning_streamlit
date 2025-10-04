@@ -19,5 +19,5 @@ with st.expander("Données"):
     y = train.Survived
     y
     
-    with st.expander("Visualisation de données"):
-        st.scatter_chart(data=train, x="Age", y="Fare", color="Survived")
+with st.expander("Visualisation de données"):
+    st.scatter_chart(data=train, x="Age", y="Fare", color="Survived")
