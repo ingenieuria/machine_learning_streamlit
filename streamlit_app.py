@@ -52,14 +52,14 @@ with st.sidebar:
     
 #Creation d'un DataFrame pour nos features
 data_df = {    
-    "pclass":pclass,
-    "name" : name,
-    "sex" :sex,
+    "Pclass":pclass,
+    "Name" : name,
+    "Sex" :sex,
     "age" :age,
-    "sibsp" :sibsp,
-    "parch" :parch,
-    "fare" :fare,
-    "embarked" :embarked
+    "SibSp" :sibsp,
+    "Parch" :parch,
+    "Fare" :fare,
+    "Embarked" :embarked
         }
 
 input_df = pd.DataFrame(data_df, index=[0])
