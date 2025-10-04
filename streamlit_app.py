@@ -38,16 +38,16 @@ with st.sidebar:
     age = st.slider("Selectionnez votre âge", min_value=0.0, max_value=100.0, value=0.0, step=0.1)
     st.write(f"Age : {age}")
     
-    sibsp = st.slider("Selectionnez votre class", min_value=1, max_value=10, value=0, step=1)
+    sibsp = st.slider("Nombre de frères/soeurs (SibSp)", min_value=1, max_value=10, value=0, step=1)
     st.write(f"SibSp : {sibsp}")
     
-    parch = st.slider("Selectionnez votre class", min_value=1, max_value=10, value=0, step=1)
+    parch = st.slider("Nombre de parents/enfants (Parch)", min_value=1, max_value=10, value=0, step=1)
     st.write(f"Parch : {parch}")
     
-    fare = st.slider("Selectionnez votre âge", min_value=0.0, max_value=100.0, value=0.0, step=0.1)
+    fare = st.slider("Prix du billet (Fare)", min_value=0.0, max_value=100.0, value=0.0, step=0.1)
     st.write(f"Fare : {fare}")
     
-    embarked = st.selectbox("Embarked", ("S", "C", "Q"))
+    embarked = st.selectbox("Pord d'embarguement", ("S", "C", "Q"))
     
     
 #Creation d'un DataFrame pour nos features
