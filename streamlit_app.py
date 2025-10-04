@@ -12,7 +12,7 @@ with st.expander("Données"):
     train
     
     st.write("**X**")
-    X = train.drop(labels=["Survived", "Ticket"], axis=1)
+    X = train.drop(labels=["Survived", "Ticket", "Cabin"], axis=1)
     X
     
     st.write("**y**")
